@@ -1,3 +1,3 @@
 # BartekB-it.github.io
 
-[Test](./Test3.md)
+[text-operations.md](./text-operations.md)

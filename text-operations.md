@@ -38,13 +38,13 @@ Piping helps you use an output of one command, and use it as an argument for ano
 
 So the same (well, actually a very simmilar) output as `grep -n [pattern] [path/file]` can be achieved with:
 
-`cat [path/file] \| grep -n [pattern]`
+`cat [path/file] | grep -n [pattern]`
 
 OR
 
-`nl [path/file] \| grep [pattern]`.
+`nl [path/file] | grep [pattern]`.
 
-(If you do not want the lines numbered, you can always use grep like this: `cat [path/file] \| grep [pattern]`)
+(If you do not want the lines numbered, you can always use grep like this: `cat [path/file] | grep [pattern]`)
 
 Okay, so you are writing a pretty long script and you need to change one word for another. Sounds pretty easy, right?
 
